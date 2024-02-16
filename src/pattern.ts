@@ -64,7 +64,7 @@ export class Pattern {
 	public test(data: Buffer): boolean {
 		return this.segments.every((segment) => {
 			// Get the slice of the source buffer to compare against
-			const slice = data.slice(
+			const slice = data.subarray(
 				segment.offset,
 				segment.offset + segment.buffer.length
 			);
