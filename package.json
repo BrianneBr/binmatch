@@ -1,0 +1,41 @@
+{
+  "name": "binmatch",
+  "version": "0.1.0",
+  "description": "Simple binary pattern matching",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "binmatch",
+    "binary",
+    "binary signature",
+    "binary matching",
+    "pattern matching"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianneBr/binmatch.git"
+  },
+  "author": "Brianne Bresnahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianneBr/binmatch/issues"
+  },
+  "homepage": "https://github.com/BrianneBr/binmatch#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
