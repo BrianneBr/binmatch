@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Simple binary pattern matching",
   "main": "build/index.js",
+  "files": [
+    "/build"
+  ],
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
